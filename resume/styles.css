@@ -1,0 +1,71 @@
+/*@font-face {*/
+/*    font-family: 'yekanFont'; !*a name to be used later*!*/
+/*    src: url('/Users/shayan/WebstormProjects/firstfrontproject/resume'); !*URL to font*!*/
+/*}*/
+@font-face {
+    font-family: 'yekanFont';
+    src: url('/Users/shayan/WebstormProjects/firstfrontproject/resume') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('/Users/shayan/WebstormProjects/firstfrontproject/resume') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.resume {
+    display: flex;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 800px;
+    max-width: 100%;
+    background-color: lightgoldenrodyellow;
+}
+
+.resume img {
+    margin-top: 20px;
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.resume-content {
+    padding: 20px;
+    flex: 1;
+    color: #333;
+}
+
+.resume-content h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #024f02;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    flex: 1 1 45%;
+    padding: 10px;
+    color: #333;
+    font-size: 14px;
+    direction: rtl;
+}
+
+.info-item span {
+    font-family: 'YourFontName';
+   color: #024f02;
+    font-weight: bold;
+}

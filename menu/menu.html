@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .menu-container {
+            width: 300px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-title {
+            font-size: 18px;
+            font-weight: bold;
+            padding: 15px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .menu-item:hover {
+            background-color: #32cd32;
+            color: white;
+        }
+
+        .menu-item .arrow {
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        .menu-item:hover .arrow {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu-container">
+    <div class="menu-title">Digital Content & Devices</div>
+    <div class="menu-item">
+        Prime Videos
+        <span class="arrow">&#9654;</span>
+    </div>
+    <div class="menu-item">
+        Amazon Music
+        <span class="arrow">&#9654;</span>
+    </div>
+    <div class="menu-item">
+        Echo & Alexa
+        <span class="arrow">&#9654;</span>
+    </div>
+    <div class="menu-item">
+        Fire Tablets
+        <span class="arrow">&#9654;</span>
+    </div>
+    <div class="menu-item">
+       Fire Tv
+        <span class="arrow">&#9654;</span>
+    </div>
+    <div class="menu-item">
+        Kindle E-readers & Books
+        <span class="arrow">&#9654;</span>
+    </div>
+</div>
+
+</body>
+</html>
