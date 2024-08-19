@@ -18,9 +18,13 @@ body {
 }
 .shareicon {
     margin-left: 250px;
+    cursor: pointer;
+
 }
 .saveicon{
     margin-left:  250px;
+    cursor: pointer;
+
 }
 
 .post-header {
@@ -35,10 +39,12 @@ body {
     height: 40px;
     border-radius: 50%;
     margin-right: 10px;
+    cursor: pointer;
+
 }
 
 .username {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .post-image {
@@ -65,14 +71,28 @@ body {
     display: block;
     margin-bottom: 10px;
     color: #666;
+    cursor: pointer;
+
 }
 
 .caption {
     margin-bottom: 10px;
+    display: inline;
+}
+.comments {
+    cursor: pointer;
+
 }
 
 .comments,
 .time {
     display: block;
     color: #666;
+}
+
+.more {
+    cursor: pointer;
+    color: #999;
+    display: inline;
+
 }
